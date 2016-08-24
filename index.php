@@ -11,6 +11,13 @@
 		echo($dato);
 		echo("<br>");
 	}
+
+	require_once('FiguraGeometrica.php');
+
+	$figura = new FiguraGeometrica;
+	echo($figura->GetColor());
+	echo $figura->ToString();
+
 ?>
 
 
